@@ -1,0 +1,157 @@
+.my-form {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #C8E6C9;
+  color: #333;
+  font-size: 16px;
+}
+
+.my-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.my-form input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.my-form .form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.my-form .form-radio-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.my-form .form-radio-group > div {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.my-form .form-radio-group input[type="radio"] {
+  margin-right: 10px;
+}
+
+.submit-button{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(117, 194, 110);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .my-form {
+    width: 90%;
+  }
+
+  .my-form .form-radio-group > div {
+    margin-right: 10px;
+  }
+}
+
+.my-form .form-group .form-radio-group input[type="radio"] {
+  display: none;
+}
+
+.my-form .form-group .form-radio-group label {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-weight: normal;
+  color: #000;
+  font-size: 16px;
+}
+
+.my-form .form-group .form-radio-group label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #000;
+}
+
+.my-form .form-group .form-radio-group label:after {
+  content: "";
+  position: absolute;
+  left: 4.5px;
+  top: 4.5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000;
+  transform: scale(0);
+}
+
+.my-form .form-group .form-radio-group input[type="radio"]:checked + label:after {
+  transform: scale(1);
+}
+
+.my-form .form-group .form-radio-group div {
+  margin-bottom: 10px;
+}
+
+
+.sex-options {
+  display: flex; /* usando Flexbox para alinhar os elementos*/
+  align-items: center;
+}
+
+.sex-options {
+  display: flex;
+  align-items: center;
+}
+
+.sex-options {
+  display: flex;
+  align-items: center;
+}
+
+.sex-option {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  appearance: none;
+  border-radius: 50%;
+  background-color: white; /* fundo branco quando não selecionado */
+}
+.sex-option:checked#male { /* quando o elemento de input masculino esta selecionado */
+  background-color: #ADD8E6; /* cor de fundo para opção masculina */
+}
+.sex-option:checked#female { /* quando o elemento de input feminino esta selecionado */
+  background-color: #F58CBA; /* cor de fundo para opção feminina */
+}
+
+.sex-label {
+  font-size: 16px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+
+.submit-button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
