@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nutrition/static/css/main.dc723bf3.css",
+    "main.js": "/nutrition/static/js/main.06cb82e3.js",
+    "static/js/787.7ab7afdc.chunk.js": "/nutrition/static/js/787.7ab7afdc.chunk.js",
+    "index.html": "/nutrition/index.html",
+    "main.dc723bf3.css.map": "/nutrition/static/css/main.dc723bf3.css.map",
+    "main.06cb82e3.js.map": "/nutrition/static/js/main.06cb82e3.js.map",
+    "787.7ab7afdc.chunk.js.map": "/nutrition/static/js/787.7ab7afdc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc723bf3.css",
+    "static/js/main.06cb82e3.js"
+  ]
+}
